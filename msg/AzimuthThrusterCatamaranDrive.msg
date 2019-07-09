@@ -1,0 +1,4 @@
+float32 left_thrust_cmd
+float32 left_thrust_angle
+float32 right_thrust_cmd
+float32 right_thrust_angle
