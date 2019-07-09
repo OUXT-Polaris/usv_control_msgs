@@ -1,2 +1,2 @@
 Header header
-AzimuthThrusterCatamaranDrive cmd
+AzimuthThrusterCatamaranDrive command
