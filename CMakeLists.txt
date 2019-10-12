@@ -11,11 +11,11 @@ set(msg_files
   "msg/AzimuthThrusterCatamaranDriveStamped.msg"
 )
 
-#rosidl_generate_interfaces(${PROJECT_NAME}
-#  ${msg_files}
-#  DEPENDENCIES std_msgs
-#  ADD_LINTER_TESTS
-#)
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${msg_files}
+  DEPENDENCIES std_msgs
+  ADD_LINTER_TESTS
+)
 
-#ament_export_dependencies(rosidl_default_runtime)
+ament_export_dependencies(rosidl_default_runtime)
 ament_package()
